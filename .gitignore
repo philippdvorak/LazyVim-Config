@@ -6,3 +6,4 @@ debug
 *.log
 data
 **/.DS_STORE
+lazy-lock.json
