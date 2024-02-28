@@ -27,7 +27,11 @@ return {
             inlay_hints = { enabled = true },
             ---@type lspconfig.options
             servers = {
-                angularls = {},
+                angularls = {
+                    root_pattern = function()
+                        return require("lspconfig.util").root_pattern("angualr.json", "project.json")
+                    end,
+                },
                 volar = {},
                 psalm = {},
                 yamlls = {},
