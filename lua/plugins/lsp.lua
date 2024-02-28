@@ -28,8 +28,8 @@ return {
             ---@type lspconfig.options
             servers = {
                 angularls = {
-                    root_pattern = function()
-                        return require("lspconfig.util").root_pattern("angualr.json", "project.json")
+                    root_dir = function(...)
+                        return require("lspconfig.util").root_pattern("angular.json", "project.json")(...)
                     end,
                 },
                 volar = {},
