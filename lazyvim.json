@@ -1,6 +1,5 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.copilot",
     "lazyvim.plugins.extras.editor.mini-files",
     "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.clangd",
@@ -13,8 +12,9 @@
     "lazyvim.plugins.extras.util.mini-hipatterns"
   ],
   "news": {
-    "NEWS.md": "2123",
-    "doc/news.txt": "13995"
+    "NEWS.md": "10960",
+    "doc/news.txt": "24450"
   },
-  "version": 2
+  "version": 8
 }
+
