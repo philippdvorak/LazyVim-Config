@@ -8,3 +8,7 @@ Following tools must be installed in addition to neovim and this template
 
 - fzf
 - lazygit
+- luarocks
+- tree-sitter-cli (install via npm or cargo)
+- ripgrep
+- rust / cargo (required for mason to install nil_ls)
